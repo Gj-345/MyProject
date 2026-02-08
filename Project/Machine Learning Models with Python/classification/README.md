@@ -1,38 +1,46 @@
 ## Classification Models
 
-This folder contains classification examples implemented in Python using scikit-learn.
-The focus is on understanding classification workflows, model training, prediction,
-model evaluation, and performance analysis.
+This folder contains classification examples implemented in Python using
+scikit-learn. The focus is on supervised classification workflows, including
+data preprocessing, model training, prediction, and evaluation.
 
 ### Files
 
-- `k_nearest_neighbors.py`  
-  Implements a K-Nearest Neighbors (KNN) classifier using a real-world dataset.  
-  Includes train-test splitting, model training, prediction, and evaluation using
-  accuracy score and classification report.
-
-- `gaussian_naive_bayes.py`  
-  Demonstrates a Gaussian Naive Bayes classifier for categorical and numerical data.  
-  Covers data preprocessing, model training, prediction, and accuracy evaluation.
-
 - `diabetes_prediction_knn.py`  
-  Applies KNN classification to predict diabetes outcomes using a medical dataset.  
-  Includes confusion matrix analysis and performance evaluation.
+  Uses K-Nearest Neighbors (KNN) to predict diabetes outcomes from medical data.  
+  Includes feature selection, train-test splitting, and performance evaluation.
+
+- `income_prediction_gaussian_nb.py`  
+  Implements Gaussian Naive Bayes for income classification.  
+  Demonstrates categorical feature encoding and probabilistic classification.
+
+- `K-nearest_Neighbors.py`  
+  A basic implementation of KNN classification to illustrate distance-based
+  learning concepts.
+
+- `Naivebay.py`  
+  Demonstrates Naive Bayes classification on structured data.  
+  Focuses on probability-based decision making and model accuracy evaluation.
+
+- `face.py`  
+  Applies classification techniques to face recognition data.  
+  Demonstrates image-based classification, dimensionality reduction, and
+  model evaluation using real datasets.
 
 ### Techniques and Tools
 - Python
 - NumPy
 - Pandas
-- Matplotlib
-- scikit-learn (KNN, GaussianNB, evaluation metrics)
+- scikit-learn
 
-### Evaluation Metrics
-- Accuracy
-- Confusion Matrix
-- Classification Report (Precision, Recall, F1-score)
+### Evaluation Methods
+- Accuracy score
+- Classification report
+- Confusion matrix
 
-### Key Learnings
-- Building end-to-end classification workflows
-- Choosing appropriate classifiers for different datasets
-- Evaluating classification performance using multiple metrics
-- Interpreting model results and prediction errors
+### Key Learning Outcomes
+- Understanding classification algorithms (KNN, Naive Bayes)
+- Handling numerical and categorical features
+- Applying classification to real-world and image datasets
+- Interpreting model performance and prediction results
+
