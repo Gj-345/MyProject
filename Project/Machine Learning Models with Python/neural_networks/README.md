@@ -6,7 +6,7 @@ model training, and prediction workflow.
 
 ### File
 
-- `nautral_network.py`  
+- `neural_network.py`  
   Implements a basic neural network model for supervised learning.  
   Demonstrates data preparation, model training, prediction, and evaluation.
 
