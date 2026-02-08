@@ -18,7 +18,7 @@ data preprocessing, model training, prediction, and evaluation.
   A basic implementation of KNN classification to illustrate distance-based
   learning concepts.
 
-- `Naivebay.py`  
+- `gaussian_naive_bayes.py`  
   Demonstrates Naive Bayes classification on structured data.  
   Focuses on probability-based decision making and model accuracy evaluation.
 
