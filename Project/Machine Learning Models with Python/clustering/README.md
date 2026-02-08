@@ -5,7 +5,7 @@ The focus is on unsupervised learning, cluster formation, and data visualization
 
 ### Files
 
-- `kmeans.py`  
+- `kmean.py`  
   Demonstrates K-Means clustering using synthetic data generated with make_blobs.  
   Covers model training, cluster assignment, and visualization of clustered data points
   along with cluster centroids.
